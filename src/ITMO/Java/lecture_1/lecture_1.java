@@ -1,4 +1,4 @@
-package ITMO.Java;
+package ITMO.Java.lecture_1;
 
 import java.util.Scanner;
 
@@ -48,9 +48,11 @@ public class lecture_1 {
         int dig5 = dig4 % 2;
         if (dig5 != 0) {
             System.out.println("Нечётное");
-        } else if (dig5 == 0 && dig5 > 100) {
+        }
+        else if (dig5 > 100 && dig5 == 0) {
             System.out.println("Выход за пределы диапазона");
-        } else if (dig5 == 0) {
+        }
+        else if (dig5 == 0) {
             System.out.println("Чётное");
         }
 
